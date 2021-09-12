@@ -43,9 +43,14 @@ body {
     padding-left: 35rem;
 }
 
+
 section {
     min-height: 100vh;
     padding: 1rem;
+    background-image: url("../images/pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
