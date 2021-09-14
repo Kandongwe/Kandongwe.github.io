@@ -1,2 +1,2 @@
 # Kandongwe.github.io
-   This is my personal portfolio website
+   This project was created for my portfolio website using github pages
