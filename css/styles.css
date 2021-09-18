@@ -3,6 +3,8 @@
     --yellow: #f9ca24;
 }
 
+
+/*Setting the font-family for the enitre page*/
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -15,11 +17,16 @@
     transition: all .2s linear;
 }
 
+
+/*setting the background for the selection*/
 *::selection {
     background: rgb(185, 143, 4);
     color: #333;
 }
 
+
+
+/*styling for the scrollbar*/
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -37,12 +44,13 @@ html::-webkit-scrollbar-thumb {
     background: grey;
 }
 
+
+/*setting the color layout for the background*/
 body {
     background: #111;
     overflow: hidden;
     padding-left: 35rem;
 }
-
 
 section {
     min-height: 100vh;
@@ -54,28 +62,29 @@ section {
 }
 
 
-.btn{
+/*setting the style for the buttons*/
+.btn {
     padding: .5rem 2.5rem;
     background: #333;
     color: #fff;
     cursor: pointer;
     margin-top: 1rem;
-    font-size: 2rem; 
+    font-size: 2rem;
     border-radius: 4rem;
 }
 
-
-.btn i{
+.btn i {
     padding: .5rem;
     font-size: 1.8rem;
 }
 
-.btn:hover{
+.btn:hover {
     background: grey;
 }
 
 
-.heading{
+/*setting the style for the headig*/
+.heading {
     text-align: center;
     margin: 0 6rem;
     font-size: 4rem;
@@ -84,68 +93,8 @@ section {
     color: #fff;
 }
 
-.heading span{
+.heading span {
     color: greenyellow;
-}
-
-
-/* Styling for projects page */
-
-.projects .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-left: 3rem;
-}
-
-.projects .box-container .box{
-    width: 27rem;
-    margin: 4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
-    position: relative;
-}
-
-.projects .box-container .box span{
-    font-size: 1.3rem;
-    background: #222;
-    color: #fff;
-    border-radius: 3rem;
-    padding: .2rem 2rem;
-}
-
-.projects .box-container .box h3{
-    font-size: 2rem;
-    color: #fff;
-    padding-top: 1.5rem;
-
-}
-
-.projects .box-container .box p{
-    font-size: 1.4rem;
-    color: #eee;
-    padding: 1rem 0;
-    text-transform: none;
-}
-
-.projects .box-container .box i{
-    position: absolute;
-    top: -1.5rem; left: -2.5rem;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-    background: greenyellow;
-}
-
-.projects .box-container .box:hover i{
-    transform: scale(1.2);
-    cursor: pointer;
 }
 
 
@@ -177,6 +126,7 @@ header .user img {
 header .user .name {
     font-size: 3.5rem;
     color: #fff;
+    margin-bottom: .6rem;
 }
 
 header .navbar {
@@ -185,7 +135,7 @@ header .navbar {
 
 header .navbar ul {
     list-style: none;
-    padding: 1rem 3rem; 
+    padding: 1rem 3rem;
 }
 
 header .navbar ul li a {
@@ -198,15 +148,14 @@ header .navbar ul li a {
     border-radius: 5rem;
 }
 
-
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
     background: grey;
 }
-
 
 header .navbar ul li a:hover {
     background: grey;
 }
+
 
 #menu {
     position: fixed;
@@ -221,7 +170,6 @@ header .navbar ul li a:hover {
 }
 
 
-
 /* Styling for the home page  */
 .home {
     display: flex;
@@ -229,7 +177,7 @@ header .navbar ul li a:hover {
     flex-flow: column;
     padding: 0 15rem;
 }
- 
+
 .home h3 {
     font-size: 2.5rem;
     color: #fff;
@@ -244,127 +192,176 @@ header .navbar ul li a:hover {
     color: #eee;
 }
 
-.home p{
+.home p {
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
 }
 
-.about .row{
+.about .row {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem 0;
-
 }
 
-
-.about .row .info{
+.about .row .info {
     flex: 1 1 48rem;
-    padding:  .8rem 1rem;
+    padding: .8rem 1rem;
     padding-left: 6rem;
 }
 
-
-.about .row .info p{
+.about .row .info p {
     font-size: 1.6rem;
     color: #fff;
     padding: 0 .8rem;
     font-weight: normal;
     text-transform: none;
-
 }
 
-.about .row .counter{
-    flex:  1 1 48rem;
+.about .row .counter {
+    flex: 1 1 48rem;
     display: flex;
     padding-left: 6rem;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-
-.about .row .counter .box{
-    width: 20rem;
+.about .row .counter .box {
+    width: 25rem;
     background: #222;
     text-align: center;
     padding: 2rem;
-    margin: 2rem;
-
+    margin: 4rem;
 }
 
-.about .row .counter .box span{
+.about .row .counter .box span {
     font-size: 2rem;
     color: greenyellow;
+    justify-content: top;
+    text-transform: uppercasef;
 }
 
-.about .row .counter .box h3{
+.about .row .counter .box h3 {
     font-size: 1.4rem;
     color: #fff;
     padding: 0 .8rem;
 }
 
-.about .row .counter .box h3 p{
+.about .row .counter .box h3 p {
     text-transform: none;
 }
 
 
-/* Styling for Contact Page  */
+/* Styling for projects page */
+.projects .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
 
-.contact_me .row{
+.projects .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.projects .box-container .box span {
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 3rem;
+    padding: .2rem 2rem;
+}
+
+.projects .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.projects .box-container .box p {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+    text-transform: none;
+}
+
+.projects .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: greenyellow;
+}
+
+.projects .box-container .box:hover i {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* Styling for Contact Page  */
+.contact_me .row {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.contact_me .row .content{
+.contact_me .row .content {
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 0;
 }
 
-.contact_me .row form{
+.contact_me .row form {
     flex: 1 1 45rem;
     padding: 2rem;
     margin: 2rem;
     margin-bottom: 4rem;
 }
 
-.contact_me .row form .box{
+.contact_me .row form .box {
     font-size: 1.7rem;
     text-transform: none;
     width: 100%;
     padding: 1.6rem;
     margin: 1rem 0;
-    background:  #4d4d4d;
+    background: #4d4d4d;
     color: #fff;
-    
 }
 
-
-.contact_me .row form .box::placeholder{
+.contact_me .row form .box::placeholder {
     text-transform: uppercase;
-
 }
 
-
-.contact_me .row form .message{
+.contact_me .row form .message {
     resize: none;
     height: 15rem;
     left: ;
 }
 
-
-
-.contact_me .row .content .title{
+.contact_me .row .content .title {
     font-size: 3rem;
     color: #fff;
     text-transform: uppercase;
     padding-bottom: 2rem;
 }
 
-.contact_me .row .content .info h3{
+.contact_me .row .content .info h3 {
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -373,23 +370,18 @@ header .navbar ul li a:hover {
     padding: 1rem 0;
 }
 
-
-.contact_me .row .content .info h3 i{
+.contact_me .row .content .info h3 i {
     padding-right: 1rem;
     color: greenyellow;
 }
 
-.contact_me .row .content .info h3 p{
+.contact_me .row .content .info h3 p {
     text-transform: none;
 }
 
 
 
-
-
-
-/* media queries (making website compatabible with cell phones and tablets)*/
-
+/* media queries (making website compatabible with cell phones and tablets when resizing)*/
 @media (max-width:1200px) {
     html {
         font-size: 55%;
@@ -424,22 +416,13 @@ header .navbar ul li a:hover {
     header {
         width: 100vw;
     }
-
-.about .row .counter .box{
-    width: 100%;
-
+    .about .row .counter .box {
+        width: 100%;
     }
-
-
-.education .box-container .box{
-    width: 100%;
-
+    .education .box-container .box {
+        width: 100%;
     }
-
-
-.contact_me .row form {
-    width: 3rem;
+    .contact_me .row form {
+        width: 3rem;
     }
 }
-
-
