@@ -94,7 +94,7 @@ section {
 }
 
 .heading span {
-    color: greenyellow;
+    color: #64f50a;
 }
 
 
@@ -120,7 +120,7 @@ header .user img {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .7rem solid greenyellow;
+    border: .7rem solid #64f50a;
 }
 
 header .user .name {
@@ -184,7 +184,7 @@ header .navbar ul li a:hover {
 }
 
 .home h1 span {
-    color: greenyellow;
+    color: #64f50a;
 }
 
 .home h1 {
@@ -238,7 +238,7 @@ header .navbar ul li a:hover {
 
 .about .row .counter .box span {
     font-size: 2rem;
-    color: greenyellow;
+    color: #64f50a;
     justify-content: top;
     text-transform: uppercasef;
 }
@@ -304,7 +304,7 @@ header .navbar ul li a:hover {
     text-align: center;
     font-size: 2rem;
     color: #fff;
-    background: greenyellow;
+    background: #64f50a;
 }
 
 .projects .box-container .box:hover i {
@@ -372,7 +372,21 @@ header .navbar ul li a:hover {
 
 .contact_me .row .content .info h3 i {
     padding-right: 1rem;
-    color: greenyellow;
+    color: #64f50a;
+}
+
+
+.contact_me .row .content .info h1{
+    display: inline;
+    font-size: 2.5rem;
+    justify-content: space-around;
+    background-size: contain;
+    
+}
+
+.contact_me .row .content .info h1 i{
+    padding-right: 1rem;
+    color: #64f50a;
 }
 
 .contact_me .row .content .info h3 p {
