@@ -395,7 +395,11 @@ header .navbar ul li a:hover {
     text-transform: none;
 }
 
-
+.fa.fa-file-pdf-o{
+    color: red;
+    background-color: white;
+    padding: 0;
+}
 
 /* media queries (making website compatabible with cell phones and tablets when resizing)*/
 @media (max-width:1200px) {
